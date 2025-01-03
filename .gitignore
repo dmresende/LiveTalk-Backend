@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# TypeScript
+dist/
+*.tsbuildinfo
+*.d.ts
+tsconfig.tsbuildinfo
+
+# IDE and editor related
+.idea/
+.vscode/
+*.suo
+*.swp
+*.tmp
+*.bak
+*
+
+# Environment files
+.exemple.env
