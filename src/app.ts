@@ -49,6 +49,10 @@ app.use(express.json());
 
 app.use('/users', userRouter(userController));
 
+app.use('/', (req, res) => {
+  res.status(200).json({ message: 'Tudo pronto 🚀!' });
+});
+
 app.listen(3000, () => {
-  console.log('Server running on the port 3000');
+  console.log(`Server running in http://localhost:3000/`);
 });
