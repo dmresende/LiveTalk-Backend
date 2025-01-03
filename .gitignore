@@ -9,13 +9,13 @@ dist/
 tsconfig.tsbuildinfo
 
 # IDE and editor related
-.idea/
-.vscode/
+dist/
+*.tsbuildinfo
+*.d.ts
 *.suo
 *.swp
 *.tmp
 *.bak
 
 # Environment files
-.exemple.env
 .env
