@@ -75,13 +75,4 @@ LiveTalk-Backend/
 - **src/infrastructure/webserver/routes**: Definição das rotas da API.
 
 ## Contribuição
-
 Contribuições são bem-vindas! Sinta-se à vontade para abrir pull requests.
-
-## Licença
-
-Este projeto está licenciado sob a ISC License. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Este é um guia básico para começar com o backend do projeto LiveTalk!
