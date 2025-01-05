@@ -7,7 +7,7 @@ export default class GetUserByIdUseCase {
     this.userRepository = userRepository;
   }
 
-  async execute(userId: string) {
-    return await this.userRepository.findById(userId);
+  async execute(email: string) {
+    return await this.userRepository.findByEmail(email);
   }
 }
