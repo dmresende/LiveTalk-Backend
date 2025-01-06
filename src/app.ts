@@ -1,12 +1,11 @@
 import express from "express";
 import userRoutes from "./controllers/userController";
-// import { connectDB } from "./config/connectionDB";
+import { connectDB } from "./data/database/connectionDB";
 
 const app = express();
 const port = 3000;
 
-//configurar banco primeiro
-//connectDB();
+connectDB();
 
 app.use(express.json());
 
